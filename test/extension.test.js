@@ -64,7 +64,7 @@ test("serves the prebuilt catalog without a Python extension or interpreter", ()
     h.listeners.message({ type: "ready" });
     assert.equal(h.messages.at(-1).type, "catalog");
     assert.equal(h.messages.at(-1).catalog, catalog);
-    assert.equal(h.messages.at(-1).catalog.symbols.length, 117);
+    assert.equal(h.messages.at(-1).catalog.symbols.length, 167);
 });
 
 test("inserts prebuilt symbols and plotting snippets into a Python editor", async () => {

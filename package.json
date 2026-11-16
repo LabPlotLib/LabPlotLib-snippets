@@ -1,8 +1,9 @@
 {
   "name": "labplotlib-sidebar",
   "displayName": "LabPlotLib Sidebar",
+  "icon": "media/labplotlib-logo-clear.png",
   "description": "Browse and insert LabPlotLib symbols and plotting calls.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "labplotlib",
   "license": "UNLICENSED",
   "repository": {
@@ -29,7 +30,7 @@
         {
           "id": "labplotlib",
           "title": "LabPlotLib",
-          "icon": "media/flask.png"
+          "icon": "media/labplotlib-logo-bw.png"
         }
       ]
     },
@@ -38,7 +39,8 @@
         {
           "type": "webview",
           "id": "labplotlib.catalog",
-          "name": "Symbols and plots"
+          "name": "Symbols and plots",
+          "icon": "media/labplotlib-logo-clear.png"
         }
       ]
     }

@@ -434,6 +434,206 @@
       "value": "\u03c3"
     },
     {
+      "name": "greek_alpha",
+      "value": "\u03b1"
+    },
+    {
+      "name": "greek_beta",
+      "value": "\u03b2"
+    },
+    {
+      "name": "greek_gamma",
+      "value": "\u03b3"
+    },
+    {
+      "name": "greek_delta",
+      "value": "\u03b4"
+    },
+    {
+      "name": "greek_epsilon",
+      "value": "\u03b5"
+    },
+    {
+      "name": "greek_zeta",
+      "value": "\u03b6"
+    },
+    {
+      "name": "greek_eta",
+      "value": "\u03b7"
+    },
+    {
+      "name": "greek_theta",
+      "value": "\u03b8"
+    },
+    {
+      "name": "greek_iota",
+      "value": "\u03b9"
+    },
+    {
+      "name": "greek_kappa",
+      "value": "\u03ba"
+    },
+    {
+      "name": "greek_lambda",
+      "value": "\u03bb"
+    },
+    {
+      "name": "greek_mu",
+      "value": "\u03bc"
+    },
+    {
+      "name": "greek_nu",
+      "value": "\u03bd"
+    },
+    {
+      "name": "greek_xi",
+      "value": "\u03be"
+    },
+    {
+      "name": "greek_omicron",
+      "value": "\u03bf"
+    },
+    {
+      "name": "greek_pi",
+      "value": "\u03c0"
+    },
+    {
+      "name": "greek_rho",
+      "value": "\u03c1"
+    },
+    {
+      "name": "greek_sigma",
+      "value": "\u03c3"
+    },
+    {
+      "name": "greek_tau",
+      "value": "\u03c4"
+    },
+    {
+      "name": "greek_upsilon",
+      "value": "\u03c5"
+    },
+    {
+      "name": "greek_phi",
+      "value": "\u03c6"
+    },
+    {
+      "name": "greek_chi",
+      "value": "\u03c7"
+    },
+    {
+      "name": "greek_psi",
+      "value": "\u03c8"
+    },
+    {
+      "name": "greek_omega",
+      "value": "\u03c9"
+    },
+    {
+      "name": "greek_capital_alpha",
+      "value": "\u0391"
+    },
+    {
+      "name": "greek_capital_beta",
+      "value": "\u0392"
+    },
+    {
+      "name": "greek_capital_gamma",
+      "value": "\u0393"
+    },
+    {
+      "name": "greek_capital_delta",
+      "value": "\u0394"
+    },
+    {
+      "name": "greek_capital_epsilon",
+      "value": "\u0395"
+    },
+    {
+      "name": "greek_capital_zeta",
+      "value": "\u0396"
+    },
+    {
+      "name": "greek_capital_eta",
+      "value": "\u0397"
+    },
+    {
+      "name": "greek_capital_theta",
+      "value": "\u0398"
+    },
+    {
+      "name": "greek_capital_iota",
+      "value": "\u0399"
+    },
+    {
+      "name": "greek_capital_kappa",
+      "value": "\u039a"
+    },
+    {
+      "name": "greek_capital_lambda",
+      "value": "\u039b"
+    },
+    {
+      "name": "greek_capital_mu",
+      "value": "\u039c"
+    },
+    {
+      "name": "greek_capital_nu",
+      "value": "\u039d"
+    },
+    {
+      "name": "greek_capital_xi",
+      "value": "\u039e"
+    },
+    {
+      "name": "greek_capital_omicron",
+      "value": "\u039f"
+    },
+    {
+      "name": "greek_capital_pi",
+      "value": "\u03a0"
+    },
+    {
+      "name": "greek_capital_rho",
+      "value": "\u03a1"
+    },
+    {
+      "name": "greek_capital_sigma",
+      "value": "\u03a3"
+    },
+    {
+      "name": "greek_capital_tau",
+      "value": "\u03a4"
+    },
+    {
+      "name": "greek_capital_upsilon",
+      "value": "\u03a5"
+    },
+    {
+      "name": "greek_capital_phi",
+      "value": "\u03a6"
+    },
+    {
+      "name": "greek_capital_chi",
+      "value": "\u03a7"
+    },
+    {
+      "name": "greek_capital_psi",
+      "value": "\u03a8"
+    },
+    {
+      "name": "greek_capital_omega",
+      "value": "\u03a9"
+    },
+    {
+      "name": "greek_final_sigma",
+      "value": "\u03c2"
+    },
+    {
+      "name": "planet_sun",
+      "value": "\u2609"
+    },
+    {
       "name": "planet_mercury",
       "value": "\u263f"
     },

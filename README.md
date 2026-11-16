@@ -15,7 +15,7 @@ Browsing and inserting snippets do not require Python, the Python extension, or
 LabPlotLib to be installed. To run the inserted code, install `labplotlib` in
 your Python environment: `python -m pip install labplotlib`.
 
-The bundled catalog is a snapshot of 0.12.0. It includes the
+The bundled catalog is a snapshot of 0.13.0. It includes the Greek and
 planetary symbols and names in the supplied symbol reference, and may differ
 from the version you have installed. The extension does not inspect your
 environment or update the catalog automatically.
