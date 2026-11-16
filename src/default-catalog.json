@@ -1,0 +1,591 @@
+{
+  "version": "0.12.0",
+  "symbols": [
+    {
+      "name": "set_empty",
+      "value": "\u2205"
+    },
+    {
+      "name": "set_union",
+      "value": "\u222a"
+    },
+    {
+      "name": "set_intersection",
+      "value": "\u2229"
+    },
+    {
+      "name": "set_is_element_of",
+      "value": "\u2208"
+    },
+    {
+      "name": "set_is_not_element_of",
+      "value": "\u2209"
+    },
+    {
+      "name": "set_is_subset_of",
+      "value": "\u2286"
+    },
+    {
+      "name": "set_is_proper_subset_of",
+      "value": "\u2282"
+    },
+    {
+      "name": "set_is_not_subset_of",
+      "value": "\u2284"
+    },
+    {
+      "name": "set_is_superset_of",
+      "value": "\u2287"
+    },
+    {
+      "name": "set_is_proper_superset_of",
+      "value": "\u2283"
+    },
+    {
+      "name": "set_is_not_superset_of",
+      "value": "\u2285"
+    },
+    {
+      "name": "set_universal",
+      "value": "\ud835\udd4c"
+    },
+    {
+      "name": "set_minus",
+      "value": "\u2216"
+    },
+    {
+      "name": "set_cartesian_product",
+      "value": "\u00d7"
+    },
+    {
+      "name": "set_difference",
+      "value": "\\"
+    },
+    {
+      "name": "delta",
+      "value": "\u0394"
+    },
+    {
+      "name": "set_cardinality",
+      "value": "|"
+    },
+    {
+      "name": "set_complement",
+      "value": "'"
+    },
+    {
+      "name": "set_power_set",
+      "value": "\u2119"
+    },
+    {
+      "name": "set_contains_as_member",
+      "value": "\u220b"
+    },
+    {
+      "name": "set_does_not_contain_as_member",
+      "value": "\u220c"
+    },
+    {
+      "name": "complex_numbers",
+      "value": "\u2102"
+    },
+    {
+      "name": "real_numbers",
+      "value": "\u211d"
+    },
+    {
+      "name": "rational_numbers",
+      "value": "\u211a"
+    },
+    {
+      "name": "integers",
+      "value": "\u2124"
+    },
+    {
+      "name": "natural_numbers",
+      "value": "\u2115"
+    },
+    {
+      "name": "superscript_i",
+      "value": "\u2071"
+    },
+    {
+      "name": "superscript_n",
+      "value": "\u207f"
+    },
+    {
+      "name": "superscript_plus_sign",
+      "value": "\u207a"
+    },
+    {
+      "name": "superscript_minus",
+      "value": "\u207b"
+    },
+    {
+      "name": "superscript_zero_0",
+      "value": "\u2070"
+    },
+    {
+      "name": "superscript_one_1",
+      "value": "\u00b9"
+    },
+    {
+      "name": "squared",
+      "value": "\u00b2"
+    },
+    {
+      "name": "cubed",
+      "value": "\u00b3"
+    },
+    {
+      "name": "superscript_four_4",
+      "value": "\u2074"
+    },
+    {
+      "name": "superscript_five_5",
+      "value": "\u2075"
+    },
+    {
+      "name": "superscript_six_6",
+      "value": "\u2076"
+    },
+    {
+      "name": "superscript_seven_7",
+      "value": "\u2077"
+    },
+    {
+      "name": "superscript_eight_8",
+      "value": "\u2078"
+    },
+    {
+      "name": "superscript_nine_9",
+      "value": "\u2079"
+    },
+    {
+      "name": "subscript_zero_0",
+      "value": "\u2080"
+    },
+    {
+      "name": "subscript_one_1",
+      "value": "\u2081"
+    },
+    {
+      "name": "subscript_two_2",
+      "value": "\u2082"
+    },
+    {
+      "name": "subscript_three_3",
+      "value": "\u2083"
+    },
+    {
+      "name": "subscript_four_4",
+      "value": "\u2084"
+    },
+    {
+      "name": "subscript_five_5",
+      "value": "\u2085"
+    },
+    {
+      "name": "subscript_six_6",
+      "value": "\u2086"
+    },
+    {
+      "name": "subscript_seven_7",
+      "value": "\u2087"
+    },
+    {
+      "name": "subscript_eight_8",
+      "value": "\u2088"
+    },
+    {
+      "name": "subscript_nine_9",
+      "value": "\u2089"
+    },
+    {
+      "name": "fraction_one_half_1_2",
+      "value": "\u00bd"
+    },
+    {
+      "name": "fraction_zero_thirds_0_3",
+      "value": "\u2189"
+    },
+    {
+      "name": "fraction_one_third_1_3",
+      "value": "\u2153"
+    },
+    {
+      "name": "fraction_two_thirds_2_3",
+      "value": "\u2154"
+    },
+    {
+      "name": "fraction_one_quarter_1_4",
+      "value": "\u00bc"
+    },
+    {
+      "name": "fraction_three_quarters_3_4",
+      "value": "\u00be"
+    },
+    {
+      "name": "fraction_one_fifth_1_5",
+      "value": "\u2155"
+    },
+    {
+      "name": "fraction_two_fifths_2_5",
+      "value": "\u2156"
+    },
+    {
+      "name": "fraction_three_fifths_3_5",
+      "value": "\u2157"
+    },
+    {
+      "name": "fraction_four_fifths_4_5",
+      "value": "\u2158"
+    },
+    {
+      "name": "fraction_one_sixth_1_6",
+      "value": "\u2159"
+    },
+    {
+      "name": "fraction_five_sixths_5_6",
+      "value": "\u215a"
+    },
+    {
+      "name": "fraction_one_seventh_1_7",
+      "value": "\u2150"
+    },
+    {
+      "name": "fraction_one_eighth_1_8",
+      "value": "\u215b"
+    },
+    {
+      "name": "fraction_three_eighths_3_8",
+      "value": "\u215c"
+    },
+    {
+      "name": "fraction_five_eighths_5_8",
+      "value": "\u215d"
+    },
+    {
+      "name": "fraction_seven_eighths_7_8",
+      "value": "\u215e"
+    },
+    {
+      "name": "fraction_one_ninth_1_9",
+      "value": "\u2151"
+    },
+    {
+      "name": "fraction_one_tenth_1_10",
+      "value": "\u2152"
+    },
+    {
+      "name": "degree",
+      "value": "\u00b0"
+    },
+    {
+      "name": "degree_celsius",
+      "value": "\u00b0C"
+    },
+    {
+      "name": "degree_fahrenheit",
+      "value": "\u00b0F"
+    },
+    {
+      "name": "diameter",
+      "value": "\u2300"
+    },
+    {
+      "name": "multiplication",
+      "value": "\u00d7"
+    },
+    {
+      "name": "division",
+      "value": "\u00f7"
+    },
+    {
+      "name": "left_floor",
+      "value": "\u230a"
+    },
+    {
+      "name": "right_floor",
+      "value": "\u230b"
+    },
+    {
+      "name": "left_ceiling",
+      "value": "\u2308"
+    },
+    {
+      "name": "right_ceiling",
+      "value": "\u2309"
+    },
+    {
+      "name": "product",
+      "value": "\u220f"
+    },
+    {
+      "name": "coproduct",
+      "value": "\u2210"
+    },
+    {
+      "name": "summation",
+      "value": "\u2211"
+    },
+    {
+      "name": "summation_top",
+      "value": "\u23b2"
+    },
+    {
+      "name": "summation_bottom",
+      "value": "\u23b3"
+    },
+    {
+      "name": "partial_differential",
+      "value": "\u2202"
+    },
+    {
+      "name": "integral",
+      "value": "\u222b"
+    },
+    {
+      "name": "top_half_integral",
+      "value": "\u2320"
+    },
+    {
+      "name": "bottom_half_integral",
+      "value": "\u2321"
+    },
+    {
+      "name": "not_sign",
+      "value": "\u00ac"
+    },
+    {
+      "name": "plus_minus",
+      "value": "\u00b1"
+    },
+    {
+      "name": "pm",
+      "value": "\u00b1"
+    },
+    {
+      "name": "square_root",
+      "value": "\u221a"
+    },
+    {
+      "name": "cube_root",
+      "value": "\u221b"
+    },
+    {
+      "name": "fourth_root",
+      "value": "\u221c"
+    },
+    {
+      "name": "proportional_to",
+      "value": "\u221d"
+    },
+    {
+      "name": "infinity",
+      "value": "\u221e"
+    },
+    {
+      "name": "right_angle",
+      "value": "\u221f"
+    },
+    {
+      "name": "angle",
+      "value": "\u2220"
+    },
+    {
+      "name": "therefore",
+      "value": "\u2234"
+    },
+    {
+      "name": "approximately_equal_to",
+      "value": "\u2248"
+    },
+    {
+      "name": "congruent_to",
+      "value": "\u2245"
+    },
+    {
+      "name": "not_equal_to",
+      "value": "\u2260"
+    },
+    {
+      "name": "less_than_or_equal_to",
+      "value": "\u2264"
+    },
+    {
+      "name": "greater_than_or_equal_to",
+      "value": "\u2265"
+    },
+    {
+      "name": "right_angle_with_arc",
+      "value": "\u22be"
+    },
+    {
+      "name": "right_triangle",
+      "value": "\u22bf"
+    },
+    {
+      "name": "dot_operator",
+      "value": "\u22c5"
+    },
+    {
+      "name": "sigma",
+      "value": "\u03c3"
+    },
+    {
+      "name": "planet_mercury",
+      "value": "\u263f"
+    },
+    {
+      "name": "planet_venus",
+      "value": "\u2640"
+    },
+    {
+      "name": "planet_earth",
+      "value": "\u2641"
+    },
+    {
+      "name": "planet_mars",
+      "value": "\u2642"
+    },
+    {
+      "name": "planet_jupiter",
+      "value": "\u2643"
+    },
+    {
+      "name": "planet_saturn",
+      "value": "\u2644"
+    },
+    {
+      "name": "planet_uranus",
+      "value": "\u2645"
+    },
+    {
+      "name": "planet_neptune",
+      "value": "\u2646"
+    },
+    {
+      "name": "planet_pluto",
+      "value": "\u2647"
+    }
+  ],
+  "functions": [
+    {
+      "name": "annotate_fit",
+      "signature": "(ax: matplotlib.axes._axes.Axes, fit: Any, color: Optional[str] = None) -> None",
+      "description": "Add a text box with the fit parameters (model fits) and \u03c7\u00b2, reduced \u03c7\u00b2, p and R\u00b2.",
+      "required": [
+        {
+          "name": "ax",
+          "keywordOnly": false
+        },
+        {
+          "name": "fit",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "bode_plot",
+      "signature": "(frequency: Sequence[float], gain: Optional[Sequence[float]] = None, phase: Optional[Sequence[float]] = None, title: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, figsize: Tuple[float, float] = (8, 5), *, gain_db: Optional[Sequence[float]] = None, ax: Optional[matplotlib.axes._axes.Axes] = None, xlabel: str = 'Frequency (Hz)', gain_label: str = 'Gain (dB)', phase_label: str = 'Phase (\u00b0)', label: Optional[str] = None, color: Optional[str] = None, phase_color: Optional[str] = None, marker: str = 'o', linestyle: str = '-', xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = 'log') -> matplotlib.figure.Figure",
+      "description": "Bode plot: gain in dB against frequency, with phase in degrees on a twin axis.",
+      "required": [
+        {
+          "name": "frequency",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "errorbar_plot",
+      "signature": "(x: Sequence[float], y: Sequence[float], yerr: Union[float, Sequence[float], Sequence[Sequence[float]], NoneType] = None, xerr: Union[float, Sequence[float], Sequence[Sequence[float]], NoneType] = None, title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, figsize: Tuple[float, float] = (8, 5), *, ax: Optional[matplotlib.axes._axes.Axes] = None, label: Optional[str] = None, color: Optional[str] = None, marker: str = 'o', capsize: float = 3, xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Plot measurements with optional symmetric or asymmetric uncertainties.",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "line_plot",
+      "signature": "(x: Sequence[float], y: Sequence[float], title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, figsize: Tuple[float, float] = (8, 5), *, ax: Optional[matplotlib.axes._axes.Axes] = None, label: Optional[str] = None, color: Optional[str] = None, marker: Optional[str] = None, linestyle: str = '-', xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Draw a line on ax (or a new figure), and return the figure.",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "scatter_plot",
+      "signature": "(x: Sequence[float], y: Sequence[float], c: Optional[Sequence[float]] = None, title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, figsize: Tuple[float, float] = (8, 5), *, ax: Optional[matplotlib.axes._axes.Axes] = None, label: Optional[str] = None, color: Optional[str] = None, marker: str = 'o', cmap: Union[str, matplotlib.colors.Colormap, NoneType] = None, colorbar: bool = False, colorbar_label: Optional[str] = None, vmin: Optional[float] = None, vmax: Optional[float] = None, xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Scatter points, optionally coloured by ``c`` with a colormap and colourbar.",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "scatter_with_bands",
+      "signature": "(x: Sequence[float], y: Sequence[float], title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, figsize: Tuple[float, float] = (8, 5), *, ax: Optional[matplotlib.axes._axes.Axes] = None, yerr: Union[float, Sequence[float], NoneType] = None, xerr: Union[float, Sequence[float], Sequence[Sequence[float]], NoneType] = None, use_errors: bool = True, confidence_band: bool = True, prediction_band: bool = True, confidence_level: float = 0.95, confidence_uncertainty: Union[float, Sequence[float], NoneType] = None, prediction_uncertainty: Union[float, Sequence[float], NoneType] = None, fit_range: Optional[Tuple[float, float]] = None, show_stats: bool = False, label: str = 'data', color: Optional[str] = None, fit_color: Optional[str] = None, marker: str = 'o', xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Plot a linear fit with pointwise confidence and prediction bands.",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "scatter_with_fit",
+      "signature": "(x: Sequence[float], y: Sequence[float], degree: int = 1, title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, label_slope: bool = True, label_intercept: bool = True, figsize: Tuple[float, float] = (8, 5), *, ax: Optional[matplotlib.axes._axes.Axes] = None, yerr: Union[float, Sequence[float], NoneType] = None, xerr: Union[float, Sequence[float], Sequence[Sequence[float]], NoneType] = None, use_errors: bool = True, model: Optional[Callable[..., Any]] = None, p0: Optional[Sequence[float]] = None, show_stats: bool = False, label: str = 'data', color: Optional[str] = None, fit_color: Optional[str] = None, marker: str = 'o', xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Plot measurements and a fit (polynomial, or ``model`` when given).",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    },
+    {
+      "name": "scatter_with_residuals",
+      "signature": "(x: Sequence[float], y: Sequence[float], degree: int = 1, title: Optional[str] = None, xlabel: Optional[str] = None, ylabel: Optional[str] = None, filename: Union[str, pathlib.Path, NoneType] = None, save_directory: Union[str, pathlib.Path, NoneType] = None, show: bool = False, label_slope: bool = True, figsize: Tuple[float, float] = (8, 7), *, axes: Optional[Tuple[matplotlib.axes._axes.Axes, matplotlib.axes._axes.Axes]] = None, yerr: Union[float, Sequence[float], NoneType] = None, xerr: Union[float, Sequence[float], Sequence[Sequence[float]], NoneType] = None, use_errors: bool = True, model: Optional[Callable[..., Any]] = None, p0: Optional[Sequence[float]] = None, show_stats: bool = False, label: str = 'data', color: Optional[str] = None, fit_color: Optional[str] = None, marker: str = 'o', xscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None, yscale: Optional[Literal['linear', 'log', 'symlog', 'logit']] = None) -> matplotlib.figure.Figure",
+      "description": "Plot a fit (polynomial, or ``model``) and its residuals (observed minus predicted).",
+      "required": [
+        {
+          "name": "x",
+          "keywordOnly": false
+        },
+        {
+          "name": "y",
+          "keywordOnly": false
+        }
+      ]
+    }
+  ]
+}

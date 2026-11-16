@@ -1,0 +1,4 @@
+test/**
+.vscode/**
+.gitignore
+**/__pycache__/**

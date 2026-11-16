@@ -1,0 +1,49 @@
+{
+  "name": "labplotlib-sidebar",
+  "displayName": "LabPlotLib Sidebar",
+  "description": "Browse and insert LabPlotLib symbols and plotting calls.",
+  "version": "0.1.5",
+  "publisher": "labplotlib",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labplotlib/labplotlib-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other", "Snippets"],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": {
+      "supported": true
+    }
+  },
+  "main": "./src/extension.js",
+  "activationEvents": ["onView:labplotlib.catalog"],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "labplotlib",
+          "title": "LabPlotLib",
+          "icon": "media/flask.png"
+        }
+      ]
+    },
+    "views": {
+      "labplotlib": [
+        {
+          "type": "webview",
+          "id": "labplotlib.catalog",
+          "name": "Symbols and plots"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
